@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-07-10T11:49:42.667776",
+    "attacker_ip": "172.18.0.5",
+    "failed_attempts": 5,
+    "action": "IPTABLES_NOT_FOUND",
+    "threshold_config": 5,
+    "window_seconds": 60,
+    "iptables_rule": "iptables -A INPUT -s 172.18.0.5 -j DROP",
+    "auto_unblock_after_seconds": 300
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-07-10T11:52:01.246665",
+    "attacker_ip": "192.168.1.100",
+    "failed_attempts": 5,
+    "action": "IPTABLES_NOT_FOUND",
+    "threshold_config": 5,
+    "window_seconds": 60,
+    "iptables_rule": "iptables -A INPUT -s 192.168.1.100 -j DROP",
+    "auto_unblock_after_seconds": 300
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-07-10T11:52:01.258622",
+    "attacker_ip": "10.0.0.50",
+    "failed_attempts": 5,
+    "action": "IPTABLES_NOT_FOUND",
+    "threshold_config": 5,
+    "window_seconds": 60,
+    "iptables_rule": "iptables -A INPUT -s 10.0.0.50 -j DROP",
+    "auto_unblock_after_seconds": 300
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-07-10T11:58:27.635517",
+    "attacker_ip": "172.18.0.99",
+    "failed_attempts": 5,
+    "action": "IPTABLES_NOT_FOUND",
+    "threshold_config": 5,
+    "window_seconds": 60,
+    "iptables_rule": "iptables -A INPUT -s 172.18.0.99 -j DROP",
+    "auto_unblock_after_seconds": 300
+  }
+]
